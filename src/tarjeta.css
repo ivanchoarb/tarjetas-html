@@ -1,6 +1,6 @@
 *{box-sizing:border-box;margin:0}
 body{margin:0;font:16px/1.4 system-ui,sans-serif}
-.tarjeta{background:var(--fondo);color:var(--texto);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 16px;text-align:center}
+.tarjeta{background:var(--fondo);color:var(--texto);min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 16px;text-align:center}
 .tarjeta>*{width:100%;max-width:380px}
 .tarjeta img{width:112px;height:112px;border-radius:50%;object-fit:cover;border:3px solid var(--borde)}
 .tarjeta h1{font:600 1.6rem/1.2 Georgia,serif;margin:16px 0 4px}
