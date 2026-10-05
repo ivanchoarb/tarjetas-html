@@ -1,3 +1,2 @@
 dist/
-*.png
-!clientes/**/*.png
+node_modules/

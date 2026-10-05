@@ -7,7 +7,9 @@ Tarjetas digitales de contacto para negocios: una plantilla, un archivo de datos
 2. `git push` a `main`. El Action publica `https://<id>-card.pages.dev`.
 
 ## Local
-`node build.mjs` genera `dist/<id>/index.html`. Sin dependencias.
+- `npm install` una vez.
+- `npm run dev`: vista previa en vivo de todas las tarjetas para diseñar (src/Tarjeta.jsx + src/tarjeta.css).
+- `npm run build`: genera `dist/<id>/index.html` estático, sin JavaScript.
 
 ## Secrets del repo
 `CLOUDFLARE_API_TOKEN` (permiso Cloudflare Pages: Edit) y `CLOUDFLARE_ACCOUNT_ID`.

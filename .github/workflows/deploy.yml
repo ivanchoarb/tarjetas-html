@@ -14,7 +14,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node build.mjs
+      - run: npm ci
+      - run: npm run build
       # Un proyecto de Cloudflare Pages por cliente: <id>-card.pages.dev
       # ponytail: despliega todos en cada push; desplegar solo los cambiados si pasan de ~50 clientes
       - run: |
