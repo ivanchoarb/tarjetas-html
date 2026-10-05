@@ -1,0 +1,12 @@
+{
+  "nombre": "La Corteza Bakery & Coffee",
+  "lema": "Panadería artesanal y café",
+  "ciudad": "Granada · Cali",
+  "horario": "Lun–Sáb 8:30am–8pm · Dom 8:30am–7pm",
+  "telefono": "+573173278616",
+  "whatsapp": "573173278616",
+  "instagram": "lacortezabakery",
+  "mapa": "https://www.google.com/maps/search/?api=1&query=La+Corteza+Bakery+%26+Coffee+Cali",
+  "web": "",
+  "colores": { "fondo": "#F1E9E3", "texto": "#33190C", "acento": "#C9962E", "acentoTexto": "#33190C", "borde": "#E3D2C8" }
+}

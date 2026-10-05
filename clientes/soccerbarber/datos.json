@@ -1,0 +1,12 @@
+{
+  "nombre": "Soccer Barber Shop",
+  "lema": "Barbería",
+  "ciudad": "La Flora · Cali",
+  "horario": "Lun–Sáb 8am–9pm · Dom 8am–7pm",
+  "telefono": "+573155823453",
+  "whatsapp": "573155823453",
+  "instagram": "barberia.soccerbarbershop",
+  "mapa": "https://www.google.com/maps/search/?api=1&query=Calle+52+Norte+Av.+3F-181+Cali",
+  "web": "",
+  "colores": { "fondo": "#0c0c0c", "texto": "#f5efe0", "acento": "#c9a227", "acentoTexto": "#0c0c0c", "borde": "#3a3a3a" }
+}

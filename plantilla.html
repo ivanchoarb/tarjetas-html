@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{nombre}}</title>
+<style>
+:root{--fondo:{{fondo}};--texto:{{texto}};--acento:{{acento}};--borde:{{borde}};--acento-texto:{{acentoTexto}}}
+*{box-sizing:border-box;margin:0}
+body{background:var(--fondo);color:var(--texto);font:16px/1.4 system-ui,sans-serif;min-height:100vh;display:grid;place-items:center;padding:24px 16px}
+main{width:100%;max-width:380px;text-align:center}
+img{width:112px;height:112px;border-radius:50%;object-fit:cover;border:3px solid var(--borde)}
+h1{font:600 1.6rem/1.2 Georgia,serif;margin:16px 0 4px}
+.sub{opacity:.75;font-size:.95rem}
+.horario{margin:12px 0 24px;font-size:.85rem;opacity:.75}
+a{display:block;padding:14px;margin:10px 0;border:1px solid var(--borde);border-radius:12px;color:var(--texto);text-decoration:none;font-weight:600}
+a.principal{background:var(--acento);border-color:var(--acento);color:var(--acento-texto,var(--texto))}
+a:focus-visible{outline:2px solid var(--texto);outline-offset:2px}
+</style>
+</head>
+<body>
+<main>
+<img src="{{logo}}" alt="Logo de {{nombre}}">
+<h1>{{nombre}}</h1>
+<p class="sub">{{lema}} · {{ciudad}}</p>
+<p class="horario">{{horario}}</p>
+{{enlaces}}
+</main>
+</body>
+</html>
